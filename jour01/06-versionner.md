@@ -86,5 +86,5 @@ git commit -m "validation"
 git log --oneline
 
 git checkout xxxxxxx => allez dans le passé
-git checkout main    => revenir dans le présent 
+git checkout main    => revenir dans le présent  
 ```
