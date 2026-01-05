@@ -88,3 +88,24 @@ git log --oneline
 git checkout xxxxxxx => allez dans le passé
 git checkout main    => revenir dans le présent  
 ```
+
+## normer les descriptions dans les commit 
+
+- attention ce n'est OBLIGATOIRE
+- MAIS ça permet de mieux s'y retrouver dans les commits => respecter la règle suivant 
+
+
+git add .
+git commit -m "type(portée) description"
+
+type : le type de code que je suis en train de réalisé 
+    - fix => correctif 
+    - feat => fonctionnalité (ajouter une nouvelle fonctionnalité)
+    - hotfix => correctif critique (en production)
+    - docs = documentation / explication
+    - refactor = réorganisation du code 
+
+portée : quelle est la portée du commit => global / page index.html
+
+git add .
+git commit -m "docs(global) comment nommer les commits"
