@@ -56,3 +56,23 @@ nothing to commit, working tree clean
 ```sh
 git commit -a -m "modification ..."
 ```
+
+## visualiser les commits
+
+- gitk 
+- git log 
+    - appuyer sur la touche Enter => passer à la suite
+    - appuyer sur la touche q pour sortir 
+- git log --oneline 
+- 
+
+```txt
+598b1d9 (HEAD -> main) toggle btn home (où je suis en train de regarder )
+156121b modification ...
+ea1725f ajout d'un footer
+6d81990 ajouter les class pour le bouton
+cc17674 bouton toggle
+8610ba0 ajouter une barre de menu
+63e4f48 ajouter bootstrap css
+ec67946 (origin/main) config git # sur github la version disponible est celle ci 
+```
