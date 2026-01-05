@@ -49,6 +49,10 @@ git status
 nothing to commit, working tree clean
 ```
 
+# il est possible de fusionner les deux commandes git add et git commit 
+
+!!! Attention cette commande en fonction QUE pour les fichiers qui ont déjà été au moins une fois add
+
 ```sh
 git commit -a -m "modification ..."
 ```
