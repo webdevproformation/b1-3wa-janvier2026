@@ -36,3 +36,19 @@ git add .
 git add -A
 git add --all 
 ```
+
+```sh
+git status
+
+git commit -m "ajout d'un footer"
+```
+
+```sh
+git status
+
+nothing to commit, working tree clean
+```
+
+```sh
+git commit -a -m "modification ..."
+```
