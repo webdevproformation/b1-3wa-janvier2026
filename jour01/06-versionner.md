@@ -76,3 +76,15 @@ cc17674 bouton toggle
 63e4f48 ajouter bootstrap css
 ec67946 (origin/main) config git # sur github la version disponible est celle ci 
 ```
+
+Cas pratique : pouvez vous revenir dans le passé :
+
+```sh
+git status 
+git add .
+git commit -m "validation"
+git log --oneline
+
+git checkout xxxxxxx => allez dans le passé
+git checkout main    => revenir dans le présent 
+```
