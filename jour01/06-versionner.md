@@ -67,7 +67,7 @@ git commit -a -m "modification ..."
 - 
 
 ```txt
-598b1d9 (HEAD -> main) toggle btn home (où je suis en train de regarder )
+598b1d9 (HEAD -> main) toggle btn home (où je suis en train de regarder)
 156121b modification ...
 ea1725f ajout d'un footer
 6d81990 ajouter les class pour le bouton
