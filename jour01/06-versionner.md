@@ -109,3 +109,20 @@ portée : quelle est la portée du commit => global / page index.html
 
 git add .
 git commit -m "docs(global) comment nommer les commits"
+
+```sh
+git init // créer le repository local
+git add . 
+git add -A
+git add --all
+git commit -m "" ajouter une version incrémentale dans le repository
+
+git commit -a -m "..." ajotuer une version incrémentale dans le reposiroty SI le fichier est déjà connu dans le repository 
+
+git status connaitre l'état de chaque fichier par rapport au repo local
+git log history des commits
+git log --oneline version compact de l'historique
+git checkout <...id_ancien_commit....> revenir dans le passé
+git checkout main revenir dans le présent
+git branch -M main : renommer une branche
+```
