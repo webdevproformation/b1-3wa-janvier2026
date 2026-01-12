@@ -71,5 +71,23 @@ git merge feature_1
 git branch -d feature_1
 ```
 
-
 # je push la branch principale 
+
+- au maximum une branch doit avoir une durée de vie de 1 semaine 
+- potentiellement créer des conflits avec la branch principale
+- 1 branch par développeur 
+- ne pas hésiter à supprimer la branch quand elle est fusionnée avec la branch main 
+
+
+# cas pratique 
+
+
+créer une nouvelle branch qui s'appelle exo1
+se positionner dans la branch exo1
+
+modifier index.html ajouter le composant 
+- un diaporama dans le fichier index.html <https://getbootstrap.com/docs/5.3/components/carousel/>
+- tu valides avec git add . git commit 
+- se positionner dans la branch principale
+- fusionner la branch exo1 avec la branch principale
+- supprimer la branch exo1
