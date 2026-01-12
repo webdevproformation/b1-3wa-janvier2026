@@ -45,3 +45,5 @@ git branch
 # etant donné que l'on est désormais sur cette branch 
 
 - toute modification réalisée dans cette branch va être disponible que sur cette branch
+- 
+- si vous saisieez la commande suivant : `git checkout main` => tout le code écrit et commit dans la branch feature_1 va disparaitre
