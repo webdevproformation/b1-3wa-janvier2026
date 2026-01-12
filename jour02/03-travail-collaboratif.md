@@ -47,3 +47,29 @@ git branch
 - toute modification réalisée dans cette branch va être disponible que sur cette branch
 - 
 - si vous saisieez la commande suivant : `git checkout main` => tout le code écrit et commit dans la branch feature_1 va disparaitre
+
+# la fonction la plus importante 
+
+- explique pourquoi git a été créé => créer des branch
+- svn => ancêtre de git => <https://tortoisesvn.net/>
+- si vous vouliez changer de branch (avec beaucoup de modification)
+- vous pouviez attendre 1 et 2 heures 
+
+# fusionner la branch feature_1 avec la branch main 
+
+1er solution
+
+```sh
+git add .
+git commit -m "fonctionnalité opérationnelle"
+# se positionner sur la branch principale
+git checkout main
+# fusionner la branch principale avec la branch feature_1
+git merge feature_1
+# si il n'y a de conflit 
+# supprimer la branch feature_1
+git branch -d feature_1
+```
+
+
+# je push la branch principale 
