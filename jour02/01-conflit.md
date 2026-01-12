@@ -20,7 +20,7 @@ CONFLICT (content): Merge conflict in fil-rouge/index.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-Choisir laquelle des versions git doit garder :
+Choisir laquelle des versions git doit être conservée / gardée :
 
 - current Change (dans le repo local)
 - incoming change (depuis le repo distant)
