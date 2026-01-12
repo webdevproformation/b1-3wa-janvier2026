@@ -12,3 +12,24 @@
 - git ne va pas savoir quel ligne il doit prendre ??? 
 - <p class="toto">bonjour</p>
 - <p class="titi">bonjour</p>
+
+
+```txt
+Auto-merging fil-rouge/index.html
+CONFLICT (content): Merge conflict in fil-rouge/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+Choisir laquelle des versions git doit garder :
+
+- current Change (dans le repo local)
+- incoming change (depuis le repo distant)
+- ou les deux ou autre chose ??? 
+
+
+la valider en local 
+
+```sh
+git add .
+git commit -m "fix(jour02) gestion des conflits"
+```
