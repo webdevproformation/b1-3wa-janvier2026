@@ -15,6 +15,7 @@ git remote add origin <adresse de votre repository>
 git push -u origin main
 ```
  
+---
 
 # cas pratique
 
@@ -33,3 +34,41 @@ regarder sur le github si le commit a bien été ajouté
 
 git branch -M main 
 
+
+---
+
+# git remote 
+
+- permet de faire une liaison entre le REPO local et le REPO distant 
+
+```sh
+git remote add origin <adresse_internet>
+```
+
+connaitre l'adresse de mon dépôt pour le push et pour le pull 
+
+```sh
+git remote --verbose
+git remote -v
+```
+
+- push LOCAL -> DISTANT
+- pull DISTANT -> LOCAL
+
+# je veux changer l'adresse du dépôt distant 
+
+- solution 1 supprimer l'adresse et refaire un git remote add
+
+
+```sh
+# rm => remove (supprimer) supprimer l'adresse de liaison sur le dépôt local
+git remote rm origin
+# ajouter la nouvelle adresse
+git remote add origin <nouvelle_adresse_internet>
+```
+
+- solution 2 remplacer l'ancienne adresse par la nouvelle
+
+```sh
+git remote set-url origin <nouvelle_adresse>
+```
