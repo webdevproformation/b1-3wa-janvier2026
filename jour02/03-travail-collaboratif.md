@@ -91,3 +91,15 @@ modifier index.html ajouter le composant
 - se positionner dans la branch principale
 - fusionner la branch exo1 avec la branch principale
 - supprimer la branch exo1
+
+
+
+# une fois que la fonctionnalité a été ajoutée
+
+- fusionner la branch avec la branch principale
+- gérer les conflits (si nécessaire)
+- supprimer la branch secondaire
+- quand on travaille avec git => on travaille avec 2 branches 
+    - main ()
+    - branch de développement () que l'on va fusionner avec main
+- c'est vraiement déconseillé d'avoir plusieurs branches en même temps ouverte 
